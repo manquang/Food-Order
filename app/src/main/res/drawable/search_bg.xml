@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Đổ bóng ngoài cùng -->
+    <item>
+        <shape>
+            <solid android:color="#e3e3e3" /> <!-- Màu sắc của đổ bóng -->
+            <corners android:radius="5dp" /> <!-- Độ cong góc cho đổ bóng -->
+        </shape>
+    </item>
+
+    <!-- EditText -->
+    <item
+        android:left="1dp"
+        android:top="1dp"
+        android:right="1dp"
+        android:bottom="1dp">
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Màu nền của EditText -->
+            <corners android:radius="8dp" /> <!-- Độ cong góc cho EditText -->
+        </shape>
+    </item>
+</layer-list>
